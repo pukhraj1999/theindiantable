@@ -46,35 +46,3 @@ nav {
     display: none;
   }
 }
-@keyframes bounce {
-  0% {
-    transform: translateY(0px);
-  }
-  100% {
-    transform: translateY(-8px);
-  }
-}
-@keyframes dropLeft {
-  from {
-    transform: translateX(-800px);
-  }
-  to {
-    transform: translateX(0px);
-  }
-}
-@keyframes dropRight {
-  from {
-    transform: translateX(800px);
-  }
-  to {
-    transform: translateX(0px);
-  }
-}
-@keyframes dropLeftMenu {
-  from {
-    transform: translateX(-200px);
-  }
-  to {
-    transform: translateX(0px);
-  }
-}
