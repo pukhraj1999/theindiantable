@@ -1,6 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./header/Navbar";
+import Footer from "./footer/Footer";
 import Home from "./pages/Home/Home";
 import Menus from "./pages/Menus";
 import Gallery from "./pages/Gallery";
@@ -20,6 +21,7 @@ function App() {
         <Route exact path="/contactus" element={<ContactUs />} />
         <Route exact path="/reservations" element={<Reservations />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
