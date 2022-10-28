@@ -9,7 +9,9 @@ function Footer() {
         <div className="text-white grid 2xl:grid-cols-3 lg:grid-cols-3 pt-20 [&>*]:my-5">
           <div className="flex justify-center">
             <div>
-              <h1 className="text-2xl text-bold">THE INDIAN RESTAURENT</h1>
+              <h1 className="text-2xl text-bold">
+                THE INDIAN TABLE RESTAURENT
+              </h1>
               <p className="text-md text-bold text-gray-500 py-2 mb-5">
                 The Real Flabours
               </p>
