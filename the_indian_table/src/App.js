@@ -5,7 +5,7 @@ import Footer from "./footer/Footer";
 import Home from "./pages/Home/Home";
 import Menus from "./pages/Menus";
 import Gallery from "./pages/Gallery/Gallery";
-import About from "./pages/About";
+import About from "./pages/About/About";
 import ContactUs from "./pages/ContactUs";
 import Reservations from "./pages/Reservations";
 
