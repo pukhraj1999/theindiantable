@@ -24,7 +24,6 @@ function Navbar() {
         <div className="nav__right [&>a]:px-4 [&>a]:tracking-wider font-thin hover:[&>a]:text-yellow-700 ">
           <NavLink to="/about">About</NavLink>
           <NavLink to="/contactus">ContactUs</NavLink>
-          <NavLink to="/reservations">Reservations</NavLink>
         </div>
         <div
           id="menu"
@@ -73,15 +72,6 @@ function Navbar() {
             to="/contactus"
           >
             ContactUs
-          </NavLink>
-          <hr className="mx-4 " />
-          <NavLink
-            onClick={() => {
-              displayMenu();
-            }}
-            to="/reservations"
-          >
-            Reservations
           </NavLink>
         </div>
       </nav>

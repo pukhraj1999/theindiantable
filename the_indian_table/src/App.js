@@ -7,7 +7,6 @@ import Menus from "./pages/Menus";
 import Gallery from "./pages/Gallery/Gallery";
 import About from "./pages/About/About";
 import ContactUs from "./pages/ContactUs/ContactUs";
-import Reservations from "./pages/Reservations";
 
 function App() {
   return (
@@ -19,7 +18,6 @@ function App() {
         <Route exact path="/gallery" element={<Gallery />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/contactus" element={<ContactUs />} />
-        <Route exact path="/reservations" element={<Reservations />} />
       </Routes>
       <Footer />
     </div>

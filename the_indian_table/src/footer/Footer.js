@@ -13,14 +13,15 @@ function Footer() {
               <p className="text-md text-bold text-gray-500 py-2 mb-5">
                 The Real Flabours
               </p>
-              <NavLink
-                to="/Reservations"
+              <a
+                target="__blank"
+                href="https://theindiantableonline.com.au/order-now#indo-chinese"
                 className="px-6 py-2 rounded-md border-2 bg-white text-black"
               >
                 <span>
-                  <i class="fa-solid fa-pen-to-square"></i> Make a Reservations
+                  <i class="fa-solid fa-pen-to-square"></i> Order Your Food
                 </span>
-              </NavLink>
+              </a>
             </div>
           </div>
           <div className="flex justify-center items-center">
