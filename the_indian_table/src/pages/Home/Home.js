@@ -13,7 +13,12 @@ import Testinomials from "./Components/Testinomials";
 
 function Home() {
   return (
-    <div>
+    <div
+      style={{
+        overflow: "hidden",
+        width: "100%",
+      }}
+    >
       <Heading pic={food6} />
       <Welcome pic={food1} />
       <StunningLocation pic={food7} />

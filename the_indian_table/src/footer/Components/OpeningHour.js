@@ -1,5 +1,5 @@
 import React from "react";
-function TradingHour({ day, hours }) {
+function OpeningHour({ day, hours }) {
   return (
     <div className="[&>*]:text-yellow-600 flex justify-between">
       <p className="px-4">{day}</p>
@@ -7,4 +7,4 @@ function TradingHour({ day, hours }) {
     </div>
   );
 }
-export default TradingHour;
+export default OpeningHour;

@@ -36,6 +36,19 @@ function Headings({ pic }) {
               restaurant's revolving door."
             </p>
           </div>
+          <div className="flex justify-center items-center [&>*]:mx-4 [&>*]:text-xl">
+            <div
+              style={{ textShadow: "0px 2px 0px black" }}
+              className="font-bold px-6 py-2 rounded-md border-2 text-white border-white  hover:bg-white hover:text-black"
+            >
+              <a
+                target="__blank"
+                href="https://theindiantableonline.com.au/order-now#indo-chinese"
+              >
+                Order Now
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

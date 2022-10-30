@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import TradingHour from "./Components/TradingHour";
+import OpeningHour from "./Components/OpeningHour";
 
 function Footer() {
   return (
@@ -25,15 +25,15 @@ function Footer() {
           </div>
           <div className="flex justify-center items-center">
             <div>
-              <h1 className="text-2xl text-bold">TRADING HOURS</h1>
+              <h1 className="text-2xl text-bold">OPENING HOURS</h1>
               <div className="py-2">
-                <TradingHour day="Sunday" hours="5:00 PM to 10:00 PM" />
-                <TradingHour day="Monday" hours="5:00 PM to 10:00 PM" />
-                <TradingHour day="Tuesday" hours="5:00 PM to 10:00 PM" />
-                <TradingHour day="Wednesday" hours="5:00 PM to 10:00 PM" />
-                <TradingHour day="Thursday" hours="5:00 PM to 10:30 PM" />
-                <TradingHour day="Friday" hours="5:00 PM to 10:30 PM" />
-                <TradingHour day="Saturday" hours="5:00 PM to 10:30 PM" />
+                <OpeningHour day="Sunday" hours="5:00 PM to 8:45 PM" />
+                <OpeningHour day="Monday" hours="5:00 PM to 8:45 PM" />
+                <OpeningHour day="Tuesday" hours="5:00 PM to 8:45 PM" />
+                <OpeningHour day="Wednesday" hours="5:00 PM to 8:45 PM" />
+                <OpeningHour day="Thursday" hours="5:00 PM to 9:45 PM" />
+                <OpeningHour day="Friday" hours="5:00 PM to 9:45 PM" />
+                <OpeningHour day="Saturday" hours="5:00 PM to 8:45 PM" />
               </div>
             </div>
           </div>
@@ -41,26 +41,48 @@ function Footer() {
             <div>
               <h1 className="text-2xl text-bold">CONTACT US</h1>
               <p className="text-md text-bold text-gray-500 py-2 mb-5">
-                68 Nelson St, Wallsend <br />
-                NSW 2287, Australia
+                <a
+                  target="__blank"
+                  href="https://www.google.com/maps/place/The+Indian+table/@-32.9001426,151.6665429,17z/data=!3m1!4b1!4m5!3m4!1s0x6b733fd111ae9fbf:0x999426709f73273b!8m2!3d-32.9001841!4d151.668693"
+                >
+                  68 Nelson St, Wallsend <br />
+                  NSW 2287, Australia
+                </a>
               </p>
-              <p className="text-md text-bold text-gray-500 py-2 mt-10">
-                Email:- abc@gmail.com
-              </p>
-              <p className="text-md text-bold text-gray-500">
-                Phone:- 9946476465
-              </p>
+              <a
+                className="text-md text-bold text-gray-500 py-2 mt-10"
+                target="_blank"
+                href="mailto:anz.support@datman.je"
+              >
+                Email:- anz.support@datman.je <br />
+              </a>
+              <a
+                className="text-md text-bold text-gray-500"
+                target="_blank"
+                href="tel:0249500621"
+              >
+                Phone:- 0249500621
+              </a>
             </div>
           </div>
         </div>
         <div className="text-3xl flex justify-center text-white [&>*]:mx-6 [&>*]:mb-6">
-          <a target="__blank" href="#">
+          <a
+            target="__blank"
+            href="https://www.facebook.com/profile.php?id=100057217639268"
+          >
             <i class="text-blue-500 fa-brands fa-facebook"></i>
           </a>
-          <a target="__blank" href="#">
+          <a
+            target="__blank"
+            href="https://www.instagram.com/theindiantablerestaurant/?hl=en"
+          >
             <i className="text-red-700 fa-brands fa-instagram"></i>
           </a>
-          <a target="__blank" href="#">
+          <a
+            target="__blank"
+            href="https://www.google.com/maps/place/The+Indian+table/@-32.9001426,151.6665429,17z/data=!3m1!4b1!4m5!3m4!1s0x6b733fd111ae9fbf:0x999426709f73273b!8m2!3d-32.9001841!4d151.668693"
+          >
             <i class="text-gray-600 fa-solid fa-map-location-dot"></i>
           </a>
         </div>
