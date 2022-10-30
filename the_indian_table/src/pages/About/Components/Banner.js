@@ -14,9 +14,6 @@ function Banner({ pic, link }) {
       <div className="flex justify-center items-center">
         <div
           className="[&>*]:my-2  my-40 bg-white drop-shadow-lg rounded-2xl m-4 p-4"
-          data-aos="fade-down"
-          data-aos-delay="200"
-          data-aos-duration="1000"
           style={{
             backgroundImage: `url(${pic})`,
             backgroundSize: "cover",
