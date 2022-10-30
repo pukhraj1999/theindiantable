@@ -12,7 +12,12 @@ function Headings({ pic }) {
       }}
     >
       <div className="flex justify-center items-center">
-        <div className="[&>*]:my-2 px-5 my-40">
+        <div
+          className="[&>*]:my-2 px-5 my-40"
+          data-aos="fade-down"
+          data-aos-delay="200"
+          data-aos-duration="1000"
+        >
           <div className="shadow-md  shadow-black bg-white">
             <h1
               style={{ textShadow: "0px 2px 2px black" }}

@@ -13,7 +13,11 @@ function Functions({ pic }) {
       }}
     >
       <div className="flex justify-center items-center">
-        <div className="[&>*]:my-2 px-5 my-60">
+        <div
+          className="[&>*]:my-2 px-5 my-60 "
+          data-aos="fade-down"
+          data-aos-duration="1000"
+        >
           <div className="">
             <h1
               style={{ textShadow: "0px 2px 2px black" }}

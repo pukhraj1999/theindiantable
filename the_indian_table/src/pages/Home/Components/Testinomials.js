@@ -40,7 +40,7 @@ function Testinomials({ pic }) {
     >
       <div className="flex justify-end items-center">
         <div className="[&>*]:my-2 px-5 my-60">
-          <div className="">
+          <div className="" data-aos="fade-left" data-aos-duration="1000">
             <h1
               style={{ textShadow: "0px 2px 2px black" }}
               className="tracking-wider text-white  font-bold text-center px-2 text-4xl "
@@ -51,7 +51,7 @@ function Testinomials({ pic }) {
               <div className="2xl:w-[500px] lg:w-[500px]">
                 <p
                   style={{ textShadow: "0px 2px 2px black" }}
-                  className="tracking-wide text-center text-white font-bold px-2"
+                  className="text-lg tracking-wide text-center text-white font-bold px-2"
                 >
                   {data[Idx].review}
                 </p>
