@@ -13,7 +13,7 @@ function Banner({ pic, link }) {
     >
       <div className="flex justify-center items-center">
         <div
-          className="[&>*]:my-2 px-5 my-36"
+          className="[&>*]:my-2 px-5 my-48"
           data-aos="fade-down"
           data-aos-delay="200"
           data-aos-duration="1000"
@@ -23,7 +23,7 @@ function Banner({ pic, link }) {
               style={{ textShadow: "0px 2px 2px black" }}
               className="tracking-wider text-white  font-bold text-center px-2 text-4xl "
             >
-              Our Gallery
+              Our Menu
             </h1>
           </div>
           <div className="2xl:w-[500px] lg:w-[500px]">
@@ -31,7 +31,7 @@ function Banner({ pic, link }) {
               style={{ textShadow: "0px 2px 2px black" }}
               className="tracking-wide text-center text-white font-bold px-2"
             >
-              Uncover the essence of our venue and cuisine...
+              Food for every Mood!!
             </p>
           </div>
           <div className="flex justify-center items-center [&>*]:mx-4 [&>*]:text-xl">

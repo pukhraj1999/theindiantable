@@ -19,7 +19,7 @@ function Footer() {
                 className="px-6 py-2 rounded-md border-2 bg-white text-black"
               >
                 <span>
-                  <i class="fa-solid fa-pen-to-square"></i> Order Your Food
+                  <i className="fa-solid fa-pen-to-square"></i> Order Your Food
                 </span>
               </a>
             </div>
@@ -72,7 +72,7 @@ function Footer() {
             target="__blank"
             href="https://www.facebook.com/profile.php?id=100057217639268"
           >
-            <i class="text-blue-500 fa-brands fa-facebook"></i>
+            <i className="text-blue-500 fa-brands fa-facebook"></i>
           </a>
           <a
             target="__blank"
@@ -84,7 +84,7 @@ function Footer() {
             target="__blank"
             href="https://www.google.com/maps/place/The+Indian+table/@-32.9001426,151.6665429,17z/data=!3m1!4b1!4m5!3m4!1s0x6b733fd111ae9fbf:0x999426709f73273b!8m2!3d-32.9001841!4d151.668693"
           >
-            <i class="text-gray-600 fa-solid fa-map-location-dot"></i>
+            <i className="text-gray-600 fa-solid fa-map-location-dot"></i>
           </a>
         </div>
       </div>

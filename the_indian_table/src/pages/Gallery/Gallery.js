@@ -28,10 +28,6 @@ function Galllery() {
     smoothScrolling();
   });
   smoothScrolling();
-  const activateModal = () => {
-    const toggle = document.getElementById("modal");
-    toggle.classList.toggle("hidden");
-  };
   return (
     <div>
       <Banner pic={food10} link="#gallery" />
@@ -51,21 +47,6 @@ function Galllery() {
           <Card pic={food2} />
           <Card pic={food3} />
           <Card pic={food4} />
-        </div>
-      </div>
-      <div
-        id="modal"
-        style={{
-          width: "100%",
-          height: "1000%",
-        }}
-        className="hidden absolute top-0 left-0 bg-black"
-      >
-        <div
-          style={{ animation: "show 0.7s ease-in-out" }}
-          className="text-white"
-        >
-          <div className="">life</div>
         </div>
       </div>
     </div>
