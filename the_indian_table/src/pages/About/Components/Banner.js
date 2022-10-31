@@ -11,16 +11,8 @@ function Banner({ pic }) {
         width: "100%",
       }}
     >
-      <div className="flex justify-center items-center">
-        <div
-          className="[&>*]:my-2  my-40 bg-white drop-shadow-lg rounded-2xl m-4 p-4"
-          style={{
-            backgroundImage: `url(${pic})`,
-            backgroundSize: "cover",
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "center",
-          }}
-        >
+      <div className="flex justify-center items-center p-6">
+        <div className="[&>*]:my-2  my-40  drop-shadow-lg rounded-2xl m-4 p-4 bg-slate-600">
           <div className="">
             <h1
               style={{ textShadow: "0px 2px 2px black" }}
@@ -32,7 +24,7 @@ function Banner({ pic }) {
           <div className="2xl:w-[500px] lg:w-[500px]">
             <p
               style={{ textShadow: "0px 2px 2px black" }}
-              className="text-lg tracking-wide text-center text-white font-bold px-2"
+              className="text-lg  tracking-wide text-center text-white font-bold px-2"
             >
               Here at The Indian Table in Wallsend, and are proud to serve the
               surrounding area. We serve a variety of food such as biriyani,
@@ -43,8 +35,8 @@ function Banner({ pic }) {
           </div>
           <div className="flex justify-center items-center [&>*]:mx-4 [&>*]:text-xl">
             <div
-              style={{ textShadow: "0px 2px 0px black" }}
-              className="font-bold px-6 py-2 rounded-md border-2 text-white border-white  hover:bg-white hover:text-black"
+              style={{ textShadow: "0px 1px 0px black" }}
+              className="font-bold px-6 py-2 rounded-md border-2 text-white border-white  hover:bg-white hover:text-slate-600"
             >
               <a
                 target="__blank"

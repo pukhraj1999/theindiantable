@@ -26,27 +26,29 @@ function Headings({ pic }) {
               The Indian Table
             </h1>
           </div>
-          <div className="2xl:w-[500px] lg:w-[500px]">
-            <p
-              style={{ textShadow: "0px 2px 2px black" }}
-              className="tracking-wide text-center text-white font-bold px-2"
-            >
-              "All great deeds and all great thoughts have a ridiculous
-              beginning. Great works are often born on a street corner or in a
-              restaurant's revolving door."
-            </p>
-          </div>
-          <div className="flex justify-center items-center [&>*]:mx-4 [&>*]:text-xl">
-            <div
-              style={{ textShadow: "0px 2px 0px black" }}
-              className="font-bold px-6 py-2 rounded-md border-2 text-white border-white  hover:bg-white hover:text-black"
-            >
-              <a
-                target="__blank"
-                href="https://theindiantableonline.com.au/order-now#indo-chinese"
+          <div className="bg-slate-600 rounded-lg p-4 ">
+            <div className="2xl:w-[500px] lg:w-[500px] ">
+              <p
+                style={{ textShadow: "0px 2px 2px black" }}
+                className="tracking-wide text-center text-white font-bold px-2"
               >
-                Order Now
-              </a>
+                "All great deeds and all great thoughts have a ridiculous
+                beginning. Great works are often born on a street corner or in a
+                restaurant's revolving door."
+              </p>
+            </div>
+            <div className="py-2 flex justify-center items-center [&>*]:mx-4 [&>*]:text-xl">
+              <div
+                style={{ textShadow: "0px 2px 0px black" }}
+                className="font-bold px-6 py-2 rounded-md border-2 text-white border-white  hover:bg-white hover:text-black"
+              >
+                <a
+                  target="__blank"
+                  href="https://theindiantableonline.com.au/order-now#indo-chinese"
+                >
+                  Order Now
+                </a>
+              </div>
             </div>
           </div>
         </div>

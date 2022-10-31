@@ -5,7 +5,7 @@ function Welcome({ pic }) {
     <div className="bg-white drop-shadow-lg">
       <div className="grid lg:grid-row-1 lg:grid-cols-2 2xl:grid-row-1 2xl:grid-cols-2">
         <div className="flex justify-center items-center">
-          <div className="my-4  px-2  [&>*]:my-4">
+          <div className="my-4  px-6  [&>*]:my-4">
             <h1
               style={{ textShadow: "0px 2px 2px black" }}
               className="text-4xl text-center font-bold "

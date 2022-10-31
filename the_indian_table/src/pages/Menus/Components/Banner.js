@@ -26,7 +26,7 @@ function Banner({ pic, link }) {
               Our Menu
             </h1>
           </div>
-          <div className="2xl:w-[500px] lg:w-[500px]">
+          <div className="2xl:w-[500px] lg:w-[500px] bg-slate-600 rounded-2xl">
             <p
               style={{ textShadow: "0px 2px 2px black" }}
               className="tracking-wide text-center text-white font-bold px-2"

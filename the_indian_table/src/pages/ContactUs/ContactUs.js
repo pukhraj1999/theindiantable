@@ -5,7 +5,7 @@ function ContactUs() {
   return (
     <div>
       <Banner />
-      <div className="grid md:grid-cols-2 2xl:grid-cols-3 lg:grid-cols-3 [&>*]:m-4 [&>*]:p-4  [&>*]:bg-white">
+      <div className="grid md:grid-cols-2 2xl:grid-cols-3 lg:grid-cols-3 [&>*]:m-4 ">
         <Detail
           title="Email Us"
           icon="fa-solid fa-envelope"

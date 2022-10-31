@@ -38,9 +38,13 @@ function Testinomials({ pic }) {
         width: "100%",
       }}
     >
-      <div className="flex justify-end items-center">
-        <div className="[&>*]:my-2 px-5 my-60">
-          <div className="" data-aos="fade-left" data-aos-duration="1000">
+      <div
+        className="flex justify-end items-center p-6"
+        data-aos="fade-left"
+        data-aos-duration="1000"
+      >
+        <div className="[&>*]:my-2 px-5 my-60 p-4 bg-slate-600 rounded-lg">
+          <div className="">
             <h1
               style={{ textShadow: "0px 2px 2px black" }}
               className="tracking-wider text-white  font-bold text-center px-2 text-4xl "

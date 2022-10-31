@@ -12,9 +12,9 @@ function Functions({ pic }) {
         width: "100%",
       }}
     >
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center p-6">
         <div
-          className="[&>*]:my-2 px-5 my-60 "
+          className="[&>*]:my-2 px-5 my-40 p-4 bg-slate-600 rounded-lg"
           data-aos="fade-down"
           data-aos-duration="1000"
         >
@@ -48,8 +48,8 @@ function Functions({ pic }) {
           </div>
           <div className="flex justify-center items-center [&>*]:mx-4 [&>*]:text-xl">
             <div
-              style={{ textShadow: "0px 2px 2px black" }}
-              className="font-bold px-6 py-2 rounded-md border-2 text-white border-white  hover:bg-white hover:text-yellow-700"
+              style={{ textShadow: "0px 1px 1px black" }}
+              className="text-center font-bold px-6 py-2 rounded-md border-2 text-white border-white  hover:bg-white hover:text-yellow-700"
             >
               <NavLink to="/contactus">Make a Function Enquery</NavLink>
             </div>
