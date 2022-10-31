@@ -11,7 +11,7 @@ function Banner({ pic }) {
         width: "100%",
       }}
     >
-      <div className="flex justify-center items-center p-6">
+      <div className="flex justify-center items-center p-4">
         <div className="[&>*]:my-2  my-40  drop-shadow-lg rounded-2xl m-4 p-4 bg-slate-600">
           <div className="">
             <h1

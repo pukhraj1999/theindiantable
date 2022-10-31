@@ -43,7 +43,7 @@ function Testinomials({ pic }) {
         data-aos="fade-left"
         data-aos-duration="1000"
       >
-        <div className="[&>*]:my-2 px-5 my-60 p-4 bg-slate-600 rounded-lg">
+        <div className="[&>*]:my-2 px-5 my-40 p-4 bg-slate-600 rounded-lg">
           <div className="">
             <h1
               style={{ textShadow: "0px 2px 2px black" }}
