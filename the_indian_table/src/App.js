@@ -7,6 +7,7 @@ import Menus from "./pages/Menus/Menus";
 import Gallery from "./pages/Gallery/Gallery";
 import About from "./pages/About/About";
 import ContactUs from "./pages/ContactUs/ContactUs";
+import Error from "./pages/Error";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route exact path="/gallery" element={<Gallery />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/contactus" element={<ContactUs />} />
+        <Route path="*" element={<Error />} />
       </Routes>
       <Footer />
     </div>
