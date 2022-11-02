@@ -1,9 +1,11 @@
 import React from "react";
-function OpeningHour({ day, hours }) {
+function OpeningHour({ day, hours, nightHr }) {
   return (
     <div className="[&>*]:text-yellow-600 flex justify-between">
       <p className="px-4">{day}</p>
-      <p className="px-4">{hours}</p>
+      <p className="px-4">
+        {hours} <br /> {nightHr}
+      </p>
     </div>
   );
 }

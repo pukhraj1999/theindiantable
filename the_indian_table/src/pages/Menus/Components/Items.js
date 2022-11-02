@@ -1,10 +1,10 @@
 function Items({ name, ingred, price }) {
   return (
-    <div className="flex justify-between  bg-slate-600 text-white p-2 rounded-lg  m-2">
+    <div className="border-4 border-yellow-600 flex justify-between  bg-slate-600 text-white p-2 rounded-2xl  m-2">
       <div className="">
         <h1
           style={{ textShadow: "0px 2px 2px black" }}
-          className="font-bold text-2xl"
+          className="text-yellow-600 font-bold text-2xl"
         >
           {name}
         </h1>
@@ -14,16 +14,11 @@ function Items({ name, ingred, price }) {
       </div>
       <div
         style={{
-          translate: "40% -35%",
+          translate: "45% -50%",
         }}
         className="bg-yellow-600 h-12 w-12 rounded-full flex justify-center items-center"
       >
-        <p
-          className=" p-1 text-sm rounded-2xl "
-          style={{ textShadow: "0px 2px 2px black" }}
-        >
-          {price}
-        </p>
+        <p className=" p-1 text-sm rounded-2xl text-black font-bold">{price}</p>
       </div>
     </div>
   );

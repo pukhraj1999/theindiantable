@@ -12,7 +12,7 @@ function Banner({ pic }) {
       }}
     >
       <div className="flex justify-center items-center p-4">
-        <div className="[&>*]:my-2  my-40  drop-shadow-lg rounded-2xl m-4 p-4 bg-slate-600">
+        <div className="[&>*]:my-2  my-40  drop-shadow-lg rounded-2xl p-4 bg-slate-600">
           <div className="">
             <h1
               style={{ textShadow: "0px 2px 2px black" }}
@@ -24,7 +24,7 @@ function Banner({ pic }) {
           <div className="2xl:w-[500px] lg:w-[500px]">
             <p
               style={{ textShadow: "0px 2px 2px black" }}
-              className="text-lg  tracking-wide text-center text-white font-bold px-2"
+              className="text-lg  tracking-wide text-center text-white font-bold "
             >
               Here at The Indian Table in Wallsend, and are proud to serve the
               surrounding area. We serve a variety of food such as biriyani,

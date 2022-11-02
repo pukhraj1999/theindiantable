@@ -29,7 +29,7 @@ function Testinomials({ pic }) {
   };
   return (
     <div
-      className="think h-[42rem]"
+      className="think h-[45rem]"
       style={{
         backgroundImage: `url(${pic})`,
         backgroundSize: "cover",

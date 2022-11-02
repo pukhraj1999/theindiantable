@@ -31,7 +31,7 @@ function Menus() {
             <div key={key}>
               <h1
                 style={{ textShadow: "0px 1px 1px black" }}
-                className="text-center font-bold text-4xl"
+                className="text-center font-bold text-4xl text-yellow-600"
               >
                 {e.title}
               </h1>

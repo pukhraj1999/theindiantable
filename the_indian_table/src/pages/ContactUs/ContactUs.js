@@ -9,8 +9,8 @@ function ContactUs() {
         <Detail
           title="Email Us"
           icon="fa-solid fa-envelope"
-          text="anz.support@datman.je"
-          link="mailto:anz.support@datman.je"
+          text="theindiantable2021@gmail.com"
+          link="mailto:theindiantable2021@gmail.com"
         />
         <Detail
           title="Visit Us"
@@ -22,7 +22,7 @@ function ContactUs() {
         <Detail
           title="Call Us"
           icon="fa-solid fa-phone"
-          text="0249500621"
+          text="61+ 0249500621"
           link="tel:0249500621"
         />
       </div>
