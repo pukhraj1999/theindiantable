@@ -15,7 +15,7 @@ function ContactUs() {
         <Detail
           title="Visit Us"
           icon="fa-solid fa-location-dot"
-          text="68 Nelson St, Wallsend
+          text="10/68 Nelson St, Wallsend
           NSW 2287, Australia"
           link="https://www.google.com/maps/place/The+Indian+table/@-32.9001426,151.6665429,17z/data=!3m1!4b1!4m5!3m4!1s0x6b733fd111ae9fbf:0x999426709f73273b!8m2!3d-32.9001841!4d151.668693"
         />
