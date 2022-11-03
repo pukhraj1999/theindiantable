@@ -1,17 +1,21 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import OpeningHour from "./Components/OpeningHour";
 
 function Footer() {
   return (
-    <div className="mt-1">
-      <div className="bg-black ">
-        <div className="text-white grid 2xl:grid-cols-3 lg:grid-cols-3 pt-20 [&>*]:my-5">
+    <div className="mt-1 ">
+      <div className="flex justify-center my-12">
+        <div className="h-[1px] w-[90vw] bg-black"></div>
+      </div>
+      <div className=" ">
+        <div className=" grid 2xl:grid-cols-3 lg:grid-cols-3  [&>*]:my-5">
           <div className="flex justify-center">
             <div>
-              <h1 className="text-2xl text-bold">THE INDIAN TABLE</h1>
-              <p className="text-md text-bold text-gray-500 py-2 mb-5">
-                The Real Flabours
+              <h1 className="text-2xl font-bold text-slate-700">
+                THE INDIAN TABLE
+              </h1>
+              <p className="text-md text-bold text-gray-600 py-2 mb-5">
+                The Real Flavours
               </p>
               <a
                 target="__blank"
@@ -26,8 +30,10 @@ function Footer() {
           </div>
           <div className="flex justify-center items-center">
             <div>
-              <h1 className="text-2xl text-bold">OPENING HOURS</h1>
-              <div className="py-2">
+              <h1 className="text-2xl text-slate-700 font-bold">
+                OPENING HOURS
+              </h1>
+              <div className="py-2 ">
                 <OpeningHour
                   day="Sunday"
                   hours="9:00 AM to 2:00 PM"
@@ -48,8 +54,8 @@ function Footer() {
           </div>
           <div className="flex justify-center">
             <div>
-              <h1 className="text-2xl text-bold">CONTACT US</h1>
-              <p className="text-md text-bold text-gray-500 py-2 mb-5">
+              <h1 className="text-2xl font-bold text-slate-700">CONTACT US</h1>
+              <p className="text-md text-bold text-gray-600 py-2 mb-5">
                 <a
                   target="__blank"
                   href="https://www.google.com/maps/place/The+Indian+table/@-32.9001426,151.6665429,17z/data=!3m1!4b1!4m5!3m4!1s0x6b733fd111ae9fbf:0x999426709f73273b!8m2!3d-32.9001841!4d151.668693"
@@ -59,14 +65,14 @@ function Footer() {
                 </a>
               </p>
               <a
-                className="text-md text-bold text-gray-500 py-2 mt-10"
+                className="text-md text-bold text-gray-600 py-2 mt-10"
                 target="_blank"
                 href="mailto:theindiantable2021@gmail.com"
               >
                 Email:- theindiantable2021@gmail.com <br />
               </a>
               <a
-                className="text-md text-bold text-gray-500"
+                className="text-md text-bold text-gray-600"
                 target="_blank"
                 href="tel:0249500621"
               >
@@ -75,7 +81,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="text-3xl flex justify-center text-white [&>*]:mx-6 [&>*]:mb-6">
+        <div className="text-3xl flex justify-center  [&>*]:mx-6 [&>*]:mb-6">
           <a
             target="__blank"
             href="https://www.facebook.com/profile.php?id=100057217639268"

@@ -3,7 +3,7 @@ import Banner from "./Components/Banner";
 import Items from "./Components/Items";
 import data from "./data";
 
-import food13 from "../../assets/gallery/food13.jpg";
+import food15 from "../../assets/gallery/food15.jpg";
 
 function Menus() {
   const smoothScrolling = () => {
@@ -24,7 +24,7 @@ function Menus() {
   console.log(data);
   return (
     <div>
-      <Banner pic={food13} link="#menus" />
+      <Banner pic={food15} link="#menus" />
       <div id="menus" className="[&>*]:my-4  my-10">
         {data.map((e, key) => {
           return (
@@ -42,9 +42,11 @@ function Menus() {
                   );
                 })}
               </div>
-              <div className="flex justify-center my-12">
-                <div className="h-[2px] w-[80vw] bg-black"></div>
-              </div>
+              {key !== data.length - 1 && (
+                <div className="flex justify-center my-12">
+                  <div className="h-[2px] w-[80vw] bg-black"></div>
+                </div>
+              )}
             </div>
           );
         })}

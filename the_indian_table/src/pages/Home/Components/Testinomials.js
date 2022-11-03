@@ -29,7 +29,7 @@ function Testinomials({ pic }) {
   };
   return (
     <div
-      className="think h-[45rem]"
+      className="think h-[50rem]"
       style={{
         backgroundImage: `url(${pic})`,
         backgroundSize: "cover",
@@ -50,13 +50,18 @@ function Testinomials({ pic }) {
             </h1>
             <div className="slide">
               <div className="2xl:w-[500px] lg:w-[500px]">
-                <p className="text-lg tracking-wide text-center text-white font-bold px-2">
-                  {data[Idx].review}
+                <p
+                  style={{
+                    fontFamily: ``,
+                  }}
+                  className="my-4 text-right italic text-lg tracking-wide  text-white font-bold px-2"
+                >
+                  {'"' + data[Idx].review + '"'}
                 </p>
               </div>
               <div className="2xl:w-[500px] lg:w-[500px]">
                 <p className="text-yellow-300 text-xl tracking-wide text-center  font-bold px-2">
-                  {data[Idx].name}
+                  {"- " + data[Idx].name}
                 </p>
               </div>
             </div>

@@ -16,17 +16,17 @@ function Welcome({ pic }) {
               Indian Table offers the ideal setting for you and your guests,
               whether you are looking for a romantic setting for two, a takeaway
               or home delivery meal, or anything in between. Located in{" "}
-              <span className="text-yellow-600">
+              <span className="text-slate-700">
                 68 Nelson St, Wallsend NSW 2287, Australia
               </span>{" "}
               . The Indian Table offers diners a warm environment and friendly,
               professional service.
             </p>
             <div className="flex justify-center items-center [&>*]:mx-4 [&>*]:text-xl">
-              <div className="px-6 py-2 rounded-md border-2 border-yellow-700  hover:bg-yellow-700 hover:text-white">
+              <div className="px-6 py-2 rounded-md border-2 border-slate-700  hover:bg-slate-700 hover:text-white">
                 <NavLink to="/menus">Menus</NavLink>
               </div>
-              <div className="px-6 py-2 rounded-md border-2 border-yellow-700  hover:bg-yellow-700 hover:text-white">
+              <div className="px-6 py-2 rounded-md border-2 border-slate-700  hover:bg-slate-700 hover:text-white">
                 <NavLink to="/gallery">Gallery</NavLink>
               </div>
             </div>
