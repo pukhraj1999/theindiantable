@@ -18,30 +18,21 @@ function Headings({ pic }) {
           data-aos-delay="200"
           data-aos-duration="1000"
         >
-          <div className="shadow-md  shadow-black bg-white">
-            <h1
-              style={{ textShadow: "0px 2px 2px black" }}
-              className="tracking-wider text-yellow-600 font-bold text-center px-2 text-4xl "
-            >
+          {/* <div className="shadow-md  shadow-black bg-white ">
+            <h1 className="tracking-wider font-bold text-center p-2 text-4xl ">
               The Indian Table
             </h1>
-          </div>
+          </div> */}
           <div className="bg-slate-600 rounded-lg p-4 ">
             <div className="2xl:w-[500px] lg:w-[500px] ">
-              <p
-                style={{ textShadow: "0px 2px 2px black" }}
-                className="tracking-wide text-center text-white font-bold px-2"
-              >
+              <p className="tracking-wide text-center text-white font-bold p-3">
                 "All great deeds and all great thoughts have a ridiculous
                 beginning. Great works are often born on a street corner or in a
                 restaurant's revolving door."
               </p>
             </div>
-            <div className="py-2 flex justify-center items-center [&>*]:mx-4 [&>*]:text-xl">
-              <div
-                style={{ textShadow: "0px 2px 0px black" }}
-                className="font-bold px-6 py-2 rounded-md border-2 text-white border-white  hover:bg-white hover:text-black"
-              >
+            <div className="py-2 flex justify-center items-center [&>*]:mx-4 [&>*]:text-xl my-1">
+              <div className="font-bold px-6 py-2 rounded-md border-2 text-white border-white  hover:bg-white hover:text-black">
                 <a
                   target="__blank"
                   href="https://theindiantableonline.com.au/order-now#indo-chinese"

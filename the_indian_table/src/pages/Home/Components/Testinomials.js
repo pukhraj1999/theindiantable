@@ -45,26 +45,17 @@ function Testinomials({ pic }) {
       >
         <div className="[&>*]:my-2 px-5 my-40 p-4 bg-slate-600 rounded-lg">
           <div className="">
-            <h1
-              style={{ textShadow: "0px 2px 2px black" }}
-              className="tracking-wider text-white  font-bold text-center px-2 text-4xl "
-            >
+            <h1 className="tracking-wider text-white  font-bold text-center px-2 text-4xl ">
               Testimonials
             </h1>
             <div className="slide">
               <div className="2xl:w-[500px] lg:w-[500px]">
-                <p
-                  style={{ textShadow: "0px 2px 2px black" }}
-                  className="text-lg tracking-wide text-center text-white font-bold px-2"
-                >
+                <p className="text-lg tracking-wide text-center text-white font-bold px-2">
                   {data[Idx].review}
                 </p>
               </div>
               <div className="2xl:w-[500px] lg:w-[500px]">
-                <p
-                  style={{ textShadow: "0px 2px 2px black" }}
-                  className="text-yellow-300 text-xl tracking-wide text-center  font-bold px-2"
-                >
+                <p className="text-yellow-300 text-xl tracking-wide text-center  font-bold px-2">
                   {data[Idx].name}
                 </p>
               </div>

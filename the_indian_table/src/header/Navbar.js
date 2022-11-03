@@ -23,7 +23,7 @@ function Navbar() {
         {/* Appling style to all children links using [&>Tag]:property */}
         <div className="nav__right [&>a]:px-4 [&>a]:tracking-wider font-thin hover:[&>a]:text-yellow-700 ">
           <NavLink to="/about">About</NavLink>
-          <NavLink to="/contactus">ContactUs</NavLink>
+          <NavLink to="/contactus">Contact Us</NavLink>
         </div>
         <div
           id="menu"
@@ -71,7 +71,7 @@ function Navbar() {
             }}
             to="/contactus"
           >
-            ContactUs
+            Contact Us
           </NavLink>
         </div>
       </nav>

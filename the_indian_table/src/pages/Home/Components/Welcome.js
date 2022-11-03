@@ -6,10 +6,7 @@ function Welcome({ pic }) {
       <div className="grid lg:grid-row-1 lg:grid-cols-2 2xl:grid-row-1 2xl:grid-cols-2">
         <div className="flex justify-center items-center">
           <div className="my-4  px-6  [&>*]:my-4">
-            <h1
-              style={{ textShadow: "0px 2px 2px black" }}
-              className="text-4xl text-center font-bold "
-            >
+            <h1 className="text-5xl text-center font-bold ">
               Welcome to{" "}
               <span className="text-yellow-600">The Indian Table</span>
             </h1>

@@ -25,16 +25,11 @@ function Menus() {
   return (
     <div>
       <Banner pic={food13} link="#menus" />
-      <div id="menus" className="[&>*]:my-4">
+      <div id="menus" className="[&>*]:my-4  my-10">
         {data.map((e, key) => {
           return (
             <div key={key}>
-              <h1
-                style={{ textShadow: "0px 1px 1px black" }}
-                className="text-center font-bold text-4xl text-yellow-600"
-              >
-                {e.title}
-              </h1>
+              <h1 className="text-center font-bold text-4xl">{e.title}</h1>
               <div className="grid md:grid-cols-2 2xl:grid-cols-3 lg:grid-cols-3 m-4">
                 {e.items.map((x, key) => {
                   return (
@@ -46,6 +41,9 @@ function Menus() {
                     />
                   );
                 })}
+              </div>
+              <div className="flex justify-center my-12">
+                <div className="h-[2px] w-[80vw] bg-black"></div>
               </div>
             </div>
           );

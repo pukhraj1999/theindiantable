@@ -19,18 +19,12 @@ function Functions({ pic }) {
           data-aos-duration="1000"
         >
           <div className="">
-            <h1
-              style={{ textShadow: "0px 2px 2px black" }}
-              className="tracking-wider text-white  font-bold text-center px-2 text-4xl "
-            >
+            <h1 className="tracking-wider text-white  font-bold text-center px-2 text-4xl ">
               FUNCTIONS AND EVENTS
             </h1>
           </div>
           <div className="2xl:w-[500px] lg:w-[500px]">
-            <p
-              style={{ textShadow: "0px 2px 2px black" }}
-              className="tracking-wide text-center text-white font-bold px-2"
-            >
+            <p className="tracking-wide text-center text-white font-bold px-2">
               The Indian Table Restaurant is the perfect restaurant to hold your
               next function or event. From birthday parties to wedding
               receptions and other special occasions, let The Indian Table
@@ -38,19 +32,13 @@ function Functions({ pic }) {
             </p>
           </div>
           <div className="2xl:w-[500px] lg:w-[500px]">
-            <p
-              style={{ textShadow: "0px 2px 2px black" }}
-              className="tracking-wide text-center text-white font-normal px-2"
-            >
+            <p className="tracking-wide text-center text-white font-normal px-2">
               To make an enquiry fill in your event details on our function
               enquiry form by clicking the button below
             </p>
           </div>
           <div className="flex justify-center items-center [&>*]:mx-4 [&>*]:text-xl">
-            <div
-              style={{ textShadow: "0px 1px 1px black" }}
-              className="text-center font-bold px-6 py-2 rounded-md border-2 text-white border-white  hover:bg-white hover:text-yellow-700"
-            >
+            <div className="text-center font-bold px-6 py-2 rounded-md border-2 text-white border-white  hover:bg-white hover:text-slate-600">
               <NavLink to="/contactus">Make a Function Enquery</NavLink>
             </div>
           </div>

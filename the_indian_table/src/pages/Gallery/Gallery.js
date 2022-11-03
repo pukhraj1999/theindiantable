@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Banner from "./Components/Banner";
 import Card from "./Components/Card";
-import food10 from "../../assets/gallery/food10.jpg";
+import food14 from "../../assets/gallery/food14.jpg";
 import food2 from "../../assets/gallery/food2.jpg";
 import food3 from "../../assets/gallery/food3.jpg";
 import food4 from "../../assets/gallery/food4.png";
@@ -30,14 +30,9 @@ function Galllery() {
   smoothScrolling();
   return (
     <div>
-      <Banner pic={food10} link="#gallery" />
+      <Banner pic={food14} link="#gallery" />
       <div id="gallery" className="bg-white">
-        <h1
-          style={{ textShadow: "0px 2px 1px black" }}
-          className="text-center text-4xl font-bold"
-        >
-          Enjoy the Feel
-        </h1>
+        <h1 className="text-center text-4xl font-bold py-6">Enjoy the Feel</h1>
         <div className="grid md:grid-cols-2 2xl:grid-cols-4 lg:grid-cols-4">
           <Card pic={place1} />
           <Card pic={place2} />

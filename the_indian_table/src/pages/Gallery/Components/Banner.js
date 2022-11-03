@@ -19,26 +19,17 @@ function Banner({ pic, link }) {
           data-aos-duration="1000"
         >
           <div className="">
-            <h1
-              style={{ textShadow: "0px 2px 2px black" }}
-              className="tracking-wider text-white  font-bold text-center px-2 text-4xl "
-            >
+            <h1 className="text-6xl tracking-wider text-white  font-bold text-center px-2  ">
               Our Gallery
             </h1>
           </div>
           <div className="2xl:w-[500px] lg:w-[500px]">
-            <p
-              style={{ textShadow: "0px 2px 2px black" }}
-              className="tracking-wide text-center text-white font-bold px-2 bg-slate-600 rounded-2xl"
-            >
+            <p className="text-2xl italic tracking-wide text-center text-white font-bold l">
               Uncover the essence of our venue and cuisine...
             </p>
           </div>
           <div className="flex justify-center items-center [&>*]:mx-4 [&>*]:text-xl">
-            <div
-              style={{ textShadow: "0px 2px 2px black" }}
-              className="font-bold px-6 py-2  text-white border-white "
-            >
+            <div className="font-bold px-6 py-2  text-white border-white ">
               <a href={link}>
                 <i className="text-3xl fa-regular fa-circle-down"></i>
               </a>
