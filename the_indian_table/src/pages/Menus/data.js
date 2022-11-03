@@ -67,21 +67,6 @@ const data = [
       },
     ],
   },
-  // {
-  //   title: "title2",
-  //   items: [
-  //     {
-  //       name: "item1",
-  //       ingred: "snlkdf",
-  //       price: "$60",
-  //     },
-  //     {
-  //       name: "item2",
-  //       ingred: "snlkdf",
-  //       price: "$90",
-  //     },
-  //   ],
-  // },
 ];
 
 export default data;
