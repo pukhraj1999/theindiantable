@@ -31,7 +31,7 @@ function Menus() {
             <div key={key}>
               <h1 className="text-center font-bold text-4xl">{e.title}</h1>
               <h2 className="text-center text-2xl m-4">{e.info}</h2>
-              <div className="grid md:grid-cols-2 2xl:grid-cols-3 lg:grid-cols-3 m-4">
+              <div className="grid md:grid-cols-2 2xl:grid-cols-3 lg:grid-cols-3">
                 {e.items.map((x, key) => {
                   return (
                     <Items
