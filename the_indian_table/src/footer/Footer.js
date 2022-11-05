@@ -67,6 +67,7 @@ function Footer() {
               <a
                 className="text-md text-bold text-gray-600 py-2 mt-10"
                 target="_blank"
+                rel="noreferrer"
                 href="mailto:theindiantable2021@gmail.com"
               >
                 Email:- theindiantable2021@gmail.com <br />
@@ -74,6 +75,7 @@ function Footer() {
               <a
                 className="text-md text-bold text-gray-600"
                 target="_blank"
+                rel="noreferrer"
                 href="tel:0249500621"
               >
                 Phone:- 61+ 0249500621

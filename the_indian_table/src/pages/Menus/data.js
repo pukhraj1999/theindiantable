@@ -1,69 +1,75 @@
 const data = [
   {
-    title: "ENTREÉS - VEGETARIAN",
+    title: "Breakfast and Lunch Menu",
+    info: "Available on Sat,Sun | Timing 9AM to 2PM",
     items: [
       {
-        name: "ALOO KI CHATPATI CHAAT",
+        name: "AMBARSARYA CHRIPY KULCHA",
         ingred:
-          "Lightly spiced potato cutlets finished with chickpeas & topped with a combination of yoghurt, mint & tamarind chutney.",
-        price: "$13.90",
-      },
-      {
-        name: "PUNJABI PAKORA (V)",
-        ingred:
-          "Crisp deep fried croquets of onion, mix-veggies & spinach made in traditional Punjabi style.",
-        price: "$14.90",
-      },
-      {
-        name: "VEG MANCHURIAN (V)",
-        ingred:
-          "Crispy veggie balls sautéed with mild spices, dipped in a tangy sauce.",
-        price: "$16.90",
-      },
-      {
-        name: "CHILLI PANEER",
-        ingred:
-          "Cottage cheese cubes sautéed with mild spices, dipped in a tangy sauce.",
+          "IMLI CHUTNEY SERVED WITH SPICY CHICKPEA CURRY PICKLES ONION & BUTTER",
+        extra: "EXTRA KULCHA $6.0",
         price: "$17.90",
       },
       {
-        name: "STREET SIDE SAMOSAS",
-        ingred: "Potatoes, green peas & spices wrapped in a homemade pastry.",
+        name: "GOBHI TAWAPRANTHA",
+        ingred: "WHEAT FLOUR BREAD STUFFED WITH COULIFLOWER & SPICES",
+        extra: "",
+        price: "$13.90",
+      },
+      {
+        name: "AALOO TAWA PRANTHA",
+        ingred: "WHEAT FLOUR BREAD STUFFED WITH POTATO & SPICES",
+        extra: "",
+        price: "$13.90",
+      },
+      {
+        name: "PANEER TAWA PRANTHA",
+        ingred: "WHEAT FLOUR BREAD STUFFED COTTAGE CHEESE& SPICES",
+        extra: "EXTRA BHATURA $7.90",
+        price: "$14.90",
+      },
+      {
+        name: "CHOLE BHATURA",
+        ingred:
+          "SPICY CHICKPEA, CURRY SERVED WITH FRIED INDIAN BREAD,PICKLES AND ONIONS.",
+        extra: "",
+        price: "$17.90",
+      },
+      {
+        name: "SAMOSA  2 pieces ",
+        ingred: "POTATOES,GREEN PEAS,FENNEL,GARAM,MASALA,GINGER",
+        extra: "",
         price: "$8.90",
       },
-    ],
-  },
-  {
-    title: "ENTREÉS - NON-VEGETARIAN",
-    items: [
       {
-        name: "CHILLI CHICKEN",
-        ingred:
-          "Juicy chicken chunks in a sweet, spicy and garlicky sauce. A serious flavour punch!",
+        name: "SAMOSA CHAT",
+        ingred: "SERVED WITH Chole and chutney",
+        extra: "",
+        price: "$12.90",
+      },
+      {
+        name: "MAKKI DI ROTI +SARSON DA SAAG",
+        ingred: "SPICY SPINCH CURRY SERVED WITH PICKLES, LASSI AND BUTTER",
+        extra: "EXTRA ROTI $5.0",
         price: "$16.90",
       },
       {
-        name: "CHICKEN 65",
-        ingred:
-          "A tangy street speciality from South India, chicken chunks flavoured with spices & tossed with shallots & curry leaves.",
-        price: "$16.90",
+        name: "PUNJABI CHOLE AND RICE ",
+        ingred: "CHOLE MASALA,TEA BAG,GARAM MASALA,KASURI METHI,TOMATO",
+        extra: "",
+        price: "$14.90",
       },
       {
-        name: "SMOKEY TANDOORI CHICKEN (GF)",
-        ingred:
-          "(with bones) Marinated in traditional spices & yoghurt, smoke roasted in a fiercely hot tandoori oven, garnished with mint sauce.",
-        price: "$15.90",
+        name: "MANGO OR SALTED LASSI",
+        ingred: "YOGURT,WATER OR MILK AND VARIOUS SEASONINGS,SALT OR MANGO",
+        extra: "",
+        price: "$14.90",
       },
       {
-        name: "AFGHANI CHICKEN (GF)",
-        ingred:
-          "Spiced with green cardamom, cream & garlic that simply melts in your mouth. Mouthwatering!",
-        price: "$16.90",
-      },
-      {
-        name: "LAMB CUTLETS (GF)",
-        ingred: "Marinated in chef’s own aromatic spices & grilled in tandoor.",
-        price: "$24.90",
+        name: "MASALA TEA",
+        ingred: "SPICES, SUGAR AND MILK",
+        extra: "",
+        price: "$4.50",
       },
     ],
   },

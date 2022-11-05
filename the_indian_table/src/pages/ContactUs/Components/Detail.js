@@ -6,7 +6,7 @@ function Detail({ icon, text, title, link }) {
         <i className={`text-4xl  ${icon}`}></i>
         <h1 className="text-xl font-bold">{title}</h1>
         <div>
-          <a className="text-lg" target="_blank" href={link}>
+          <a className="text-lg" target="_blank" rel="noreferrer" href={link}>
             {text}
             <br />
           </a>
