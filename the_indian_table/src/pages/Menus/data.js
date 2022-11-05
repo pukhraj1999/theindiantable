@@ -48,7 +48,7 @@ const data = [
         price: "$12.90",
       },
       {
-        name: "MAKKI DI ROTI +SARSON DA SAAG",
+        name: "MAKKI DI ROTI AND SARSON DA SAAG",
         ingred: "Spicy Spinch Curry Served With Pickles, Lassi And Butter",
         extra: "EXTRA ROTI $5.0",
         price: "$16.90",
